@@ -1,0 +1,942 @@
+/*@import url("ut_styles.css");*/
+	/********************************************************************************
+ *	Filename: iitj.css															*
+ *	Purpose: Establishes layout structure and core look and feel				*
+ *	Created by: Narendra K Singh, Rimpesh Katiyar						        *
+ *	Created: 23-02-2010															*
+ ********************************************************************************/
+	/********************************************************************************
+ *				CONTAINER														*
+ ********************************************************************************/
+html {
+	background-color: #014B70;
+}
+
+/* search */
+.search {
+	float: right;
+	width: 246px;
+	height: 40px;
+	margin: 30px 0 0 0;
+	padding: 0;
+	background: url(../images/search_bg.png) top no-repeat;
+}
+
+.search form {
+	float: right;
+	padding: 8px 0 0 0;
+	margin: 0;
+}
+
+.search form b,.search form strong {
+	display: block;
+	float: left;
+	color: #b4b4b4;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	padding: 4px 10px;
+}
+
+.search form label {
+	
+}
+
+.search form input {
+	float: left;
+}
+
+.search form input.text {
+	padding-left: 5px;
+	padding-top: 4px;
+	margin: 0px 0px 0 0;
+	background: url(../images/search_txt.png) top no-repeat;
+	border: 0;
+	color: #b4b4b4;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	width: 197px;
+	height: 24px;
+}
+
+.search form input.button_search {
+	padding: 0;
+	margin: 0;
+	height: 24px;
+	width: 39px;
+}
+
+/* End Search */
+	/********************************************************************
+				YOU ARE HERE NAVIGATION
+*********************************************************************/
+body.home #contain_column1 li.home a,body.contact #contain_column1 li.contact a,body.about #contain_column1 li.about a,body.equalcolumns #contain_column1 li.equalcolumns a,body.equalcolumns2 #contain_column1 li.equalcolumns2 a,body.news #contain_column1 li.news a,body.variations #contain_column1 li.variations a,body.baseline #contain_column1 li.baseline a,body.color #contain_column1 li.color a,body.tcolumn #contain_column1 li.tcolumn a,body.onecolnav #contain_column1 li.onecolnav a,body.grid #contain_column1 li.grid a,body.tcolumnnav #contain_column1 li.tcolumnnav a,body.forms #contain_column1 li.forms a,body.default #contain_column1 li.default a
+	{
+	background-color: #ddd;
+	color: #333;
+	cursor: default;
+	font-weight: bold;
+}
+
+body {
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	/*background-color:#000;*/
+	padding: 0;
+	margin: 0;
+	/*background-color:#222;*/
+	min-width: 900px;
+}
+
+#container_menu {
+	color: inherit;
+	background: #fff url(images/bk_lightgray_gradient.gif) repeat-x;
+	padding: 0 0 10px 0;
+	text-align: center;
+	width: 100%;
+	/*border-bottom: 15px solid #eee;*/
+}
+
+#container {
+	color: inherit;
+/*	background: #fff url(../images/bk_lightgray_gradient.gif) repeat-x;*/
+	padding: 0 0 15px 0;
+	text-align: center;
+	width: 100%;
+	border-bottom: 15px solid #eee;
+}
+
+#banner_content {
+	margin: auto;
+	padding: 0 0 0 0;
+	overflow: auto;
+	width: 900px;
+}
+
+#banner_content img {
+	float: right;
+}
+
+#banner_content_img {
+	margin: auto;
+	padding: 0 0 0 0;
+	overflow: auto;
+	width: 620px;
+	float: left;
+	background: url(../images/IITHeader_logo_blue.png) no-repeat;
+	height: 90px;
+}
+
+#contain_content {
+	/*background: #fff url(../images/bk_lightgray_gradient.gif) repeat-x;*/
+	color: #333;
+	margin: auto;
+	padding: 0 0 0 0;
+	overflow: hidden;
+	width: 900px;
+}
+
+/********************************************************************************
+ *				HEADER															*
+ ********************************************************************************/
+#contain_header_setwidth {
+	margin: auto;
+	/*width:750px;*/
+	width: 900px;
+}
+
+#siteid_content {
+	width: 250px;
+	height: 50px;
+	float: right;
+	margin: 0;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+#siteid_content a {
+	color: #fff;
+	text-decoration: none;
+/*	font-weight: bold;
+	text-transform: uppercase;	*/
+	font-family: times;
+}
+
+@media screen {
+	#siteid_content h1 a {
+		width: 250px;
+		display: block;
+		text-indent: -5000px;
+		text-decoration: none;
+		line-height: 50px;
+	}
+}
+
+#siteid_content img {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contain_search {
+	font-size: .85em;
+	width: 450px;
+	float: right;
+}
+
+#contain_search #searchtools_links {
+	margin: 12px 0 0 0;
+	padding: 0 0 0 0;
+	width: 450px;
+}
+
+#contain_search #searchtools_links form {
+	display: inline;
+}
+
+#searchtools_links a:hover {
+	text-decoration: none;
+}
+
+#content_searchtools li {
+	display: inline;
+}
+
+input.sitesearchbutton {
+	vertical-align: -3px;
+	margin: 0 0 -3px 0;
+	padding: 0 0 0 5px;
+	width: 45px !important;
+}
+
+#contain_search form {
+	margin: 0;
+	padding: 0;
+}
+
+#content_searchtools {
+	color: #CCC;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#content_searchtools a {
+	color: #CCC;
+	text-decoration: none;
+}
+
+#content_searchtools a:hover {
+	color: #FFF;
+}
+
+#content_searchtools .v_separator {
+	background: transparent url("../images/v_separator.gif") no-repeat top
+		center;
+	height: 12px;
+	padding: 0 8px 0px 6px;
+}
+
+#searchtools_links li {
+	float: right;
+}
+
+.searchtools_text {
+	padding-top: 4px;
+}
+
+/********************************************************************************
+ *				UNIVERSITY AUDIENCES											*
+ ********************************************************************************/
+#contain_audiencenav { /*border-bottom: 1px solid #222;*/
+	border-bottom: 1px solid #222;
+	/*border-top: 1px solid #666;*/
+	border-top: 1px solid #444;
+	display: block;
+	clear: both;
+}
+
+/*
+#contain_audiencenav .top {
+	background-position: center 50%;
+	background-image: url(../images/iitb_txt.gif);
+	width: 800px;
+	background-repeat: no-repeat;
+	height: 21px;
+}
+*/
+#audiencenav_content { /*background-color: #444;*/
+	background-color: #8B723F;
+	font-weight: bold;
+	font-size: .95em;
+	margin: 0;
+	padding: 0;
+	height: 21px;
+	background-position: center 50%;
+	background-image: url(../images/top image.png);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#audience_links {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 0 5px 0;
+}
+
+#audience_links li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#audience_links li a {
+	color: #eee;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 6px 5px 6px;
+	text-decoration: none;
+	background-color: inherit; /*added by jh*/
+}
+
+#audience_links li a:hover {
+	background-color: inherit;
+	color: #ffc600;
+	margin: 6px 0px 6px 0px;
+	padding: 6px 6px 6px 6px;
+}
+
+/********************************************************************************
+ *				PRIMARY NAV														*
+ ********************************************************************************/
+#contain_divisionnav { /*background-color: #444;*/
+	background-color: #FFF8C6;
+	/*border-bottom: 1px solid #000;*/
+	border-bottom: 1px solid #222;
+	/*border-top: 1px solid #666;*/
+	border-top: 1px solid #444;
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+
+#divisionnav_content {
+	margin: auto;
+	padding: 0 0 0 0;
+	overflow: auto;
+	width: 900px;
+}
+
+#divisionnav_content form {
+	float: right;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+#division_links {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px 0 5px 0;
+}
+
+#division_links li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#division_links li a {
+	color: #eee;
+	font-weight: bold;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 6px 5px 6px;
+	text-decoration: none;
+}
+
+#division_links li a:hover {
+	background-color: inherit;
+	color: #ffc600;
+	margin: 6px 0px 6px 0px;
+	padding: 6px 6px 6px 6px;
+}
+
+/********************************************************************************
+ *				ER																*
+ ********************************************************************************/
+	/********************************************************************************
+ *				BANNER															*
+ ********************************************************************************/
+#contain_banner {
+
+	background-image: url("../images/menu_bg_blue.png"); 
+	/* background: #014B70; */
+	clear: both;
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/********************************************************************************
+ *				BANNER SECONDARY 												*
+ ********************************************************************************/
+#contain_banner_secondary {
+	background-color: #fff;
+	/*background-image: url(../images/spacer.gif);*/
+	/*Transparent background*/
+	/*background-image: url(../images/banner_bk.gif);*/
+	border-top: 0px solid #ddd;
+	clear: both;
+	display: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+/********************************************************************************
+ *			BREADCRUMBS / TOOLS													*
+ ********************************************************************************/
+#contain_toolset,#contain_setwidth {
+	background: url("images/menu_bar_bg.png") repeat-x;
+	/*background-color: #222222;*/
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #ddd;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+#contain_toolbar {
+	margin: auto;
+	text-align: left;
+	width: 900px;
+}
+
+#contain_tools {
+	float: right;
+}
+
+#contain_breadcrumbs {
+	float: left;
+	/*height:20px;*/
+	height: auto;
+	text-align: left;
+}
+
+#breadcrumbs_content {
+	margin: 0;
+	padding: 3px 0 2px 0;
+	font-size: .9em;
+	color: #333;
+}
+
+#breadcrumbs_content a {
+	text-decoration: none;
+	color: #444;
+}
+
+#breadcrumbs_content a:hover {
+	text-decoration: underline;
+}
+
+#tools_content {
+	display: block;
+}
+
+#tools_content {
+	margin: 0;
+	padding: 2px 0 0 0;
+}
+
+#tools_content img {
+	border: 0;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#tools_content a {
+	
+}
+
+.bc_link {
+	color: #444;
+}
+
+.bc_pagetitle {
+	color: #444;
+	font-weight: bold;
+}
+
+.bc_delimiter {
+	color: #000;
+	font-weight: bold;
+}
+
+/********************************************************************************
+ *			COLUMN 1 / SECONDARY NAV														*
+ ********************************************************************************/
+#contain_column1 {
+	float: left;
+	margin: 15px 20px 0 0;
+	padding: 0 0 0 0;
+	text-align: left;
+	font-size: .85em;
+	/*width:165px;*/
+	width: 180px;
+}
+
+#contain_column1 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	width: auto;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+/*#contain_column1 li
+{
+	border-bottom: 1px dotted #999;
+	margin: 0;
+}*/
+#contain_column1 li {
+	border-top: 1px dotted #999;
+	padding: 0;
+	margin: -5px 0 -3px 0;
+}
+
+#contain_column1 li a {
+	border-left: 0px solid #fff;
+	border-right: 0px solid #fff;
+	display: block;
+	margin: 0px;
+	padding: 3px 6px 4px 6px;
+	text-decoration: none;
+	color: #444;
+}
+
+html>body li a {
+	width: auto;
+}
+
+#contain_column1 li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.buttontitle {
+	border-top: 4px solid #ccc;
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.menudivider { /*color: #330000;*/
+	color: #024160;
+	padding: 2px 7px 3px 7px;
+	margin: 10px 0 10px 0;
+	background-color: #EAEAEA;
+	clear: both;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	/*border-bottom: 1px solid #DBDBDB;*/
+	text-align: left;
+}
+
+.menudivider_img {
+	color: #DFDFDF;
+	clear: both;
+	border-bottom: 3px solid #DFDFDF;
+	text-align: left;
+}
+
+.menutitle {
+	color: #eee;
+	padding: 3px 7px 4px 7px;
+	margin: 10px 0 10px 0;
+	background-color: #444;
+	clear: both;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+	font-size: 1em;
+	border-left: 0px solid #fff;
+	display: none;
+}
+
+/*
+ * PureDOMExplorer Demo styles 
+ * written by Chris Heilmann
+ * Modified by Pritesh Shah (pshah at csulb dot edu): added some classes to suit our purpose
+ * More at http://onlinetools.org/tools/puredom/
+*/
+#contain_column1 ul a:link,#contain_column1 ul a:visited,#contain_column1 ul a:hover,#contain_column1 ul a:active
+	{
+	text-decoration: none;
+	/*color:#000;*/
+}
+
+#contain_column1 ul,#contain_column1 ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#contain_column1 ul {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin: 0;
+	/*font-size:.8em;*/ /*margin:.5em auto;*/
+}
+
+#contain_column1 ul ul {
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+#contain_column1 ul li {
+	line-height: 1.3em;
+	padding: 0;
+	margin: 0;
+	height: auto !important;
+	height: 17px;
+	/*Commented by Pritesh*/ /*padding-left:15px;*/
+}
+
+/* dynamically added to LIs with nested ULs */
+#contain_column1 ul li.parent {
+	padding-left: 0;
+}
+
+#contain_column1 ul li.parent img {
+	border: none;
+	padding-right: 5px;
+	vertical-align: top;
+	float: left;
+}
+
+/* dynamically added to LIs with nested ULs and STRONG elements in them */
+#contain_column1 ul li.current li { /*padding-bottom: 10px;*/
+	padding-left: 0;
+}
+
+/* The class to hide nested ULs */
+.hide {
+	position: absolute;
+	top: -1250px;
+	left: -4000px;
+}
+
+/* The class to show nested ULs */
+.show {
+	position: static;
+	display: list-item;
+	top: -1215px;
+	left: 1em;
+}
+
+/* These two classes added by Pritesh to indent the sub LIs*/
+#contain_column1 ul.hide li {
+	padding-left: 15px;
+}
+
+ul.show li {
+	padding-left: 15px;
+}
+
+#contain_column1 ul li {
+	margin: 0px 0px 0px 0px !important;
+	margin: -4px auto;
+}
+
+#contain_column1 ul ul ul {
+	padding-bottom: 0px !important;
+	padding-bottom: 10px;
+}
+
+/* Added headings inside navigation for document outline: Date: 03/03/08 */
+#contain_column1 ul li h3,#contain_column1 ul li h4,#contain_column1 ul li h5,#contain_column1 ul li h6
+	{
+	display: inline;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+#contain_column1 ul li h6 {
+	border-bottom-width: 0px;
+}
+
+/********************************************************************************
+ *		ONLY FOR COLUMN 2 															*
+ ********************************************************************************/
+#contain_column1_2 { /*border: 1px solid red;*/
+	float: left;
+	padding: 0 0 0 0;
+	margin: 15px 0 0 0;
+	text-align: left;
+	width: 700px;
+}
+
+#contain_column1_2 .tb {
+	border: 1px solid red;
+}
+
+#contain_column1_2 ul {
+	list-style: none;
+	padding-left: 1.2em;
+	margin-bottom: 1em;
+	list-style-image: url(../images/red_arr_bul.gif);
+}
+
+#contain_column1_2 li {
+	line-height: 1.5em;
+}
+
+#contain_column1_2 ol {
+	padding-left: 1.5em;
+	margin-left: 1.5em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+#contain_column1_2 {
+	line-height: 1.3em;
+	font-size: .95em;
+}
+
+#contain_column1_2 a { /*color:#333;*/
+	color: #000;
+}
+
+#contain_column1_2 a:hover { /*background-color: #333;*/
+	color: #666;
+}
+
+/********************************************************************************
+ *			COLUMN 2 / COLUMN 3															*
+ ********************************************************************************/
+#contain_column2 {
+	float: left;
+	padding: 0 0 0 0;
+	margin: 15px 0 0 0;
+	text-align: left;
+	border-left: 1px solid #eae9e6;
+	border-right: 1px solid #eae9e6;
+	width: 470px;
+}
+
+#contain_column2 h2 {
+	border-bottom: 6px solid #820000;
+	letter-spacing: 2px;
+}
+
+#contain_column2 h2 a {
+	text-decoration: none;
+	border-bottom: none;
+	color: #820000;
+}
+
+#center_spotlight_container {
+	margin-left: 8px;
+	margin-right: 8px;
+	float: left;
+}
+
+#contain_column3 {
+	float: left;
+	padding: 0 0 0 0;
+	margin: 15px 0 0 20px;
+	text-align: left;
+	width: 200px;
+}
+
+#contain_column3 h2 {
+	border-bottom: 6px solid #820000;
+	letter-spacing: 2px;
+}
+
+#contain_column3 h2 a {
+	text-decoration: none;
+	border-bottom: none;
+	color: #820000;
+}
+
+#contain_column2 ul,#contain_column3 ul {
+	list-style: none;
+	padding-left: 1.2em;
+	margin-bottom: 1em;
+	/*list-style-image: url(../images/rightarrow.gif);*/
+}
+
+#contain_column2 li,#contain_column3 li {
+	line-height: 1.5em;
+}
+
+#contain_column2 ol,#contain_column3 ol {
+	padding-left: 1.5em;
+	margin-left: 1.5em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+#contain_column2,#contain_column3 {
+	line-height: 1.3em;
+	font-size: .95em;
+}
+
+#contain_column2 a,#contain_column3 a { /*color:#333;*/
+	color: #000;
+}
+
+#contain_column2 a:hover,#contain_column3 a:hover {
+	/*background-color: #333;*/
+	color: #666;
+}
+
+/********************************************************************************
+ *				FOOTER															*
+ ********************************************************************************/
+#footer {
+	background-color: #014B70; /*#8B723F;*/
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#contain_footer {
+	background-color: inherit;
+	border-top: 1px solid #8B723F;
+	margin: auto;
+	padding: 0;
+	font-size: .9em;
+	width: 900px;
+}
+
+#contain_address {
+	color: #ccc;
+	margin: 10px 0 10px 0;
+	padding: 0 0 0 10px;
+	text-align: left;
+}
+
+#contain_phone {
+	color: #ccc;
+	float: right;
+	width: 150px;
+}
+
+#contain_utilities {
+	float: left;
+	color: #ccc;
+	float: right;
+	margin: 10px 0 10px 0;
+	padding: 0 0 10px 0;
+	text-align: right;
+	width: 200px;
+}
+
+#contain_utilities a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#contain_utilities ul {
+	margin: 0;
+	padding: 0;
+}
+
+#contain_utilities li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#contain_utilities li a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.siteindex_index {
+	padding: 10px 0 5px 0;
+	text-align: center;
+	/*width:750px;*/
+	width: 900px;
+}
+
+.siteindex_index a {
+	color: #ddd;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.siteindex_index a:hover {
+	color: #fff;
+}
+
+.siteindex_row {
+	background-color: inherit;
+	color: #ddd;
+	padding: 0 0 0 0;
+	text-align: center;
+	width: 100%;
+}
+
+.siteindex_row a {
+	color: #ddd;
+	padding: 0 3px 0 3px;
+	text-decoration: none;
+}
+
+.siteindex_row a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.siteindex_row ul {
+	list-style: none;
+	padding: 5px 0 5px 0;
+	margin: 5px 0 5px 0;
+	border-top: 1px dotted #2d2b2b;
+	border-bottom: 1px dotted #2d2b2b;
+}
+
+.siteindex_row li,#siteindex_row2 li {
+	display: inline;
+}
+
+#contain_footer h2 {
+	padding: 10px 0 5px 0;
+	font-size: 1em;
+}
+
+#contain_footer h2 a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+#contain_footer h2 a:hover {
+	color: #fff;
+}
+
+.siteindex {
+	background-color: inherit;
+	color: #ddd;
+	padding: 0 0 0 0;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+
+.copyright {
+	background-color: inherit;
+	color: #ddd;
+	padding: 0 0 0 0;
+	text-align: center;
+	width: 100%;
+	margin: 5px 0 5px 0;
+	padding: 5px 0 5px 0;
+	border-top: 1px dotted #2d2b2b;
+	border-bottom: 1px dotted #2d2b2b;
+	float: left;
+}
